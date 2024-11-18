@@ -20022,9 +20022,9 @@ Page({
             /** 目标值 */
             toValue: number | string,
             /** 动画配置 */
-            options: SpringOption,
+            options?: SpringOption,
             /** 动画完成回调。动画被取消时，返回 fasle，正常完成时返回 true。 */
-            callback: (...args: any[]) => any
+            callback?: (...args: any[]) => any
         ): AnimationObject
         /** [AnimationObject worklet.timing(number toValue, Object options, function callback)](https://developers.weixin.qq.com/miniprogram/dev/api/ui/worklet/animation/worklet.timing.html)
          *

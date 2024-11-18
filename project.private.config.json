@@ -7,5 +7,18 @@
     "urlCheck": false,
     "bigPackageSizeSupport": true
   },
-  "libVersion": "3.4.9"
+  "libVersion": "3.4.9",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/skyline/gesture-handler",
+          "pathName": "pages/skyline/gesture-handler",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
+  }
 }

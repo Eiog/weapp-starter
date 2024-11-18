@@ -17,3 +17,10 @@ const formatNumber = (n: number) => {
   const s = n.toString()
   return s[1] ? s : '0' + s
 }
+export const GestureState = {
+    POSSIBLE: 0,
+    BEGIN: 1,
+    ACTIVE: 2,
+    END: 3,
+    CANCELLED: 4
+}

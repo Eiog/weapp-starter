@@ -1,3 +1,4 @@
+// pages/skyline/skyline.ts
 Page({
 
     /**
@@ -6,12 +7,11 @@ Page({
     data: {
 
     },
-    goToPage(ev:any) {
+    goToPage(ev: any) {
         const url = ev.currentTarget.dataset.url
         if (url) {
             wx.navigateTo({
-                url:`/pages/${url}`,
-                routeType:'wx://bottom-sheet',
+                url: `/pages/${url}`,
             })
         }
     },
@@ -67,8 +67,7 @@ Page({
     /**
      * 用户点击右上角分享
      */
-    onShareAppMessage(opts): WechatMiniprogram.Page.ICustomShareContent {
-        console.log(opts.target)
-        return {}
+    onShareAppMessage() {
+
     }
 })

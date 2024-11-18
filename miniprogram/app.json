@@ -1,14 +1,17 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/canvas/canvas",
+    "pages/skyline/skyline",
+    "pages/skyline/gesture-handler"
   ],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationStyle": "custom"
   },
-  "style": "v2",
   "renderer": "webview",
+  "style": "v2",
   "rendererOptions": {
     "skyline": {
       "defaultDisplayBlock": true,
@@ -19,5 +22,12 @@
   },
   "componentFramework": "glass-easel",
   "sitemapLocation": "sitemap.json",
-  "lazyCodeLoading": "requiredComponents"
+  "lazyCodeLoading": "requiredComponents",
+  "useExtendedLib": {
+    "weui": true
+  },
+  "darkmode": true,
+  "usingComponents": {
+    "navigation-bar": "/components/navigation-bar/navigation-bar"
+  }
 }

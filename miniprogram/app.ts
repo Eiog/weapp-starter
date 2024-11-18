@@ -16,3 +16,7 @@ App<IAppOption>({
     })
   },
 })
+wx.onAppRoute((r)=>{
+    console.log(r);
+    
+})

@@ -1,5 +1,7 @@
 {
   "usingComponents": {
-    "navigation-bar": "/components/navigation-bar/navigation-bar"
-  }
+    "mp-badge": "weui-miniprogram/badge/badge",
+    "mp-dialog": "weui-miniprogram/dialog/dialog"
+  },
+  "renderer": "skyline"
 }

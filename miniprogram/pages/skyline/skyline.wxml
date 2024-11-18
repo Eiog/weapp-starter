@@ -1,0 +1,6 @@
+<!--pages/skyline/skyline.wxml-->
+<scroll-view class="h-100vh overflow-y-hidden" scroll-y type="list">
+    <view>
+        <button class="m-t-20rpx" data-url="skyline/gesture-handler" bind:tap="goToPage">手势系统</button>
+    </view>
+</scroll-view>
